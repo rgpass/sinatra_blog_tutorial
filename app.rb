@@ -2,10 +2,6 @@ require 'sinatra'
 require 'slim'
 
 get '/' do
-  'Hello World'
-end
-
-get '/blog' do
   slim :blog_index
 end
 
